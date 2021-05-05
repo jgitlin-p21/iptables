@@ -2,9 +2,12 @@
 
 This file is used to list changes made in each version of the iptables cookbook.
 
-## UNRELEASED
+## 21.7.2 (Pinnacle 21 Fork)
 
+- Pinnacle 21 Fork (changes submitted upstream but this version being used internally)
 - Resolved error: `resources/service.rb:65` undefined method `new_resource' for Chef::Resource::Service (Fixes [#129](https://github.com/chef-cookbooks/iptables/issues/129))
+- Added `:next` line number
+- Removed blank lines from iptables config file
 
 ## 7.1.0 (2020-06-09)
 
